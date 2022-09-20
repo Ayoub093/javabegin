@@ -11,7 +11,7 @@ cp = new ControlP5(this);
 
 TF1 = cp.addTextfield("Textfield1").setText("type een naam").setSize(200,50).setPosition(200,200).setCaptionLabel("doei");
 TF1.setAutoClear(false);
-knop1 = cp.addButton("Knop1").setCaptionLabel("wlkom");
+knop1 = cp.addButton("Knop1").setCaptionLabel("welkom");
 }
 
 void draw(){
